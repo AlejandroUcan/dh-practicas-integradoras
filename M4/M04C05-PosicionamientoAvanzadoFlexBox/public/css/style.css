@@ -1,0 +1,100 @@
+/* Paleta de colores */
+/* Amarillo: #EAC926; Azul: #03264C; Celeste: #1259c3; Gris oscuro: #666; Gris claro: #ebebeb; Verde: #39b54a; */
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+   
+
+/* Tipografía */
+body { font-family: 'Roboto'; font-size: 12px; }
+
+/* Tamaños tipográfios  */
+.titulares { font-size: 24px; }
+.precios { font-size: 18px; width: 30%; }
+.descuentos { font-size: 16px; color: #39b54a; width: 70%; } 
+.descripciones { font-size: 16px; }
+
+/* Iconos */
+.burger-menu { display: block; text-align: center; padding:  10px; }
+.fa-bars { background-color: #1259c3; color: white; padding: 8px; border-radius: 5px; }
+
+/* Estilos Pie de Página */
+footer { align-items: center; text-align: center; margin-bottom: 10px; }
+.fa-credit-card, .fa-gift, .fa-user-shield { color: #1259c3; font-size: 2em; margin: 8px; }
+
+/* Estilos Encabezado*/
+a:link, a:visited, a:active { text-decoration:none; color: black; font-weight: bolder; }
+header { background-color:#EAC926; }
+.encabezado { width: 100%; display: flex; padding: 10px; }
+.logo { padding: 8px; width: 50%; }
+.barra-busqueda { width: 50%; display: flex; align-items: center; justify-content: center; }
+.barra-busqueda div { align-self: center; height: 70%; padding: 5px 8px; }
+.barra-busqueda div input { height: 100%; width: 80%; border-radius: 5px; }
+.barra-busqueda div button { height: 100%; width: 15%; border-radius: 5px; }
+.mensaje { text-align: center; padding: 10px;}
+.site-options { display: none; }
+.login-navbar { display: none; }
+
+/* Productos en el sitio */
+main { margin: 0 auto; width: 90%; background-color: #ebebeb; padding: 5px;}
+.img-banner { width: 100%;}
+.general-box { display: flex; flex-direction: row; justify-content: center; align-items: center;
+    flex-wrap: wrap; padding: 3px; margin: 5px; }
+.box { margin: 10px; background-color: white; width: 100%;}
+.box-details { border-top: solid 1px #ebebeb; padding: 15px; }
+.costo { display: flex; margin: 5px; text-align: center; }
+.img { width: 100%; }
+.fa-truck { display: block; font-size: 16px; padding: 5px; width: 30px; height: 30px;
+    border: 1px solid #39b54a; background-color: #FFF; color: #39b54a; border-radius: 50%; }  
+    /*position: absolute; /*right: 20px; top: -15px; }*/
+
+/* Puntos de corte*/
+@media (min-width: 361px) {
+    /* Tablets */
+    body {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        font-size: 16px;
+    }
+    .burger-menu { display: none; }
+    .site-options { display: block; }
+    .login-navbar { display: block; }
+
+    .box { width: 40%; }
+
+    .cabecera { background-color: chartreuse; width: 100%; display: flex; align-items: center; justify-content: center;}
+    .encabezado { width: 75%; display: flex; }
+    .logo { padding: 8px; width: 50%; }
+    .barra-busqueda { width: 50%; display: flex; }
+    .barra-busqueda div { align-self: center; height: 70%; padding: 5px 8px; }
+    .barra-busqueda div input { height: 100%; width: 80%; border-radius: 5px; }
+    .barra-busqueda div button {height: 100%; border-radius: 5px;}
+    .mensaje { width: 25%; font-size: 8px; }
+
+    .navbars { display: flex; align-items: center; justify-content: center; }
+    .site-options { display: flex; justify-content: start; font-size: 8px; width: 50%;}
+    .site-options li { margin: 2px; padding: 1px; }
+    .login-navbar { display: flex; justify-content: end; font-size: 8px; width: 50%; }
+    .login-navbar li { margin: 2px; padding: 1px; }
+}
+@media (min-width: 769px) {
+    /* Laptop */
+    .cabecera { background-color: coral; }
+    .barra-busqueda div { height: 40%; }
+    .site-options li { font-size: 14px; }
+    .login-navbar li { font-size: 14px; }
+    .box { width: 20%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
