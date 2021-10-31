@@ -1,0 +1,42 @@
+/*
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
+
+body { font-family: 'Roboto'; font-size: 12px; }
+
+header { background-color:#EAC926; }
+
+.main-img {
+    margin: 20px;
+    height: 40px;
+}
+
+.op { text-align: center; font-family: 'Roboto';}
+
+.logo, .margin, .op { margin: 20px; }
+
+.burger-menu { text-align: center; }
+.fa-bars { text-align: center; padding: 8px; background-color: #1259c3; color: white; }
+
+.fa-credit-card, .fa-gift, .fa-user-shield {
+    color: #1259c3;
+    font-size: 2em;
+    margin: 8px;
+}
+
+.titulares { font-size: 24px; }
+
+.precios { font-size: 18px; }
+
+.descuentos, .descripciones { font-size: 16px;}
+
+footer {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
