@@ -1,0 +1,56 @@
+/*
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
+body { font-family: 'Roboto'; font-size: 12px; }
+a:link, a:visited, a:active { text-decoration:none; color: black; font-weight: bolder;}
+
+header { background-color:#EAC926; }
+.logo, .margin, .op { margin: 20px; }
+.main-img { margin: 20px; width: 40%; }
+.margin input { width: 20%;}
+.op { text-align: center; }
+.site-options { display: none; }
+.login-navbar { display: none; }
+.burger-menu { display: block; text-align: center; }
+
+main { margin: 0 auto; width: 90%; background-color: #ebebeb; padding: 5px;}
+.img-banner { width: 100%;}
+.general-box { padding: 10px; margin: 5px;}
+.box { margin: 10px; background-color: white;}
+.box-details { border-top: solid 1px #ebebeb; padding: 15px; }
+.img { width: 100%; }
+.titulares { font-size: 24px; }
+.precios { font-size: 18px; }
+.descuentos, .descripciones { font-size: 16px;}
+
+footer { align-items: center; text-align: center; margin-bottom: 10px;  }
+
+.fa-bars { text-align: center; padding: 8px; background-color: #1259c3; color: white; }
+.fa-truck { color: green; font-size: 2em; }
+.fa-credit-card, .fa-gift, .fa-user-shield { color: #1259c3; font-size: 2em; margin: 8px; }
+
+@media (min-width: 361px) {
+    /* Tablets */
+    body {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        font-size: 16px;
+    }
+    .burger-menu { display: none; }
+    .site-options { display: block; }
+    .login-navbar { display: block; }
+}
+@media (min-width: 769px) {
+    /* Laptop */
+    body {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        font-size: 20px;
+    }
+    .burger-menu { display: none; }
+    .site-options { display: block; }
+    .login-navbar { display: block; }
+}
